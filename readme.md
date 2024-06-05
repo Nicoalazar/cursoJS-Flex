@@ -1,7 +1,7 @@
 Este README cubre las características, la instalación, el uso y las principales funciones del proyecto, además de proporcionar información sobre cómo contribuir.
 
 # Clínica Médica Online 
-#### `https://nicoalazar.github.io/cursoJS-Flex/`
+#### https://nicoalazar.github.io/cursoJS-Flex/
 Esta es una aplicación web para reservar citas médicas en una clínica online.
 
 ## Características
