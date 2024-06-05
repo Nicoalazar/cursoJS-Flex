@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+header, footer {
+    background-color: #9f3647;
+    color: #181419;
+    text-align: center;
+    padding: 1rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    flex: 1;
+    padding: 1rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+label {
+    display:inline-block;
+    margin: 0.5rem 0;
+}
+button {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+* {
+    font-size: 2.5vh;
+}
+h1 {
+    font-size: 6vh;
+}
+h2 {
+    font-size: 3vh;
+}
+modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#appointment-history {
+    display: none; /* Oculto por defecto */
+}
+
+.appointment{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: #181419 solid 1px;
+    padding: 1rem;
+}
+
+.appointment p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}

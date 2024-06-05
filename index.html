@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Turnos</title>
+</head>
+<body>
+    <header>
+        <h1>Clínica Médica Online</h1>
+    </header>
+    <main>
+        <section id="appointment-form">
+            <h2>Reservar una Cita</h2>
+            <form id="searchForm">
+                <label for="especialidad">Especialidad:</label>
+                <select id="especialidad" name="especialidad">
+                    <option value="default" id="default" disabled selected>Seleccione una</option>
+                    <!-- Especialidades generadas automaticamente -->
+                </select>
+                <div class="form-control">
+                    <label>¿Tiene Cobertura Médica?</label>
+                    <div>
+                        <input type="radio" id="coverage-yes" name="coverage" value="Si" required onclick="clearCoverage()">
+                        <label for="coverage-yes">Sí</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="coverage-no" name="coverage" value="No" onclick="clearCoverage()">
+                        <label for="coverage-no">No</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-danger">Buscar Médicos</button>
+            </form>
+            <div id="resultContainer"></div>
+            <ul id="notAvailableMessage"> 
+                <!-- Lista de médicos no disponibles -->
+            </ul>
+            <form id="selectAppointment" style="display: none;">
+                <label for="doctorSelect">Médico:</label>
+                <select id="doctorSelect"></select>
+                <label for="time">Dia:</label>
+                <input type="date" id="time" required><br>
+                <button type="submit" class="btn btn-success">Reservar</button>
+            </form>
+            <div id="appointmentResult"></div>
+        </section>
+        <section id="appointment-history" >
+            <h2>Historial de Citas</h2>
+            <!-- Historial de citas generado dinámicamente -->
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Clínica Médica Online</p>
+    </footer>
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <h5 class="errorModal-title"></h5>
+            <p class="errorModal-body"></p>
+            <button type="reset" class="btn btn-danger" onclick="closeModal()">Cerrar</button>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h5 class="modal-title"></h5>
+            <p class="modal-body"></p>
+            <button type="reset" class="btn btn-success" onclick="closeModal()">Cerrar</button>
+        </div>
+    </div>
+    <script src="doctors.js"></script>
+    <script src="appointments.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

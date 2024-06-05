@@ -1,0 +1,150 @@
+{
+    "doctors": [
+        {
+          "id": 1,
+          "nombre": "Dr. Fernando Tamagnone",
+          "especialidad": "Clínica Médica",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 2,
+          "nombre": "Dr. Pedro Merlo",
+          "especialidad": "Clínica Médica",
+          "os": false,
+          "available": true
+        },
+        {
+          "id": 3,
+          "nombre": "Dr. Jorge Moreno",
+          "especialidad": "Urología",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 4,
+          "nombre": "Dra. Daniela Gómez",
+          "especialidad": "Alergia e Inmunología",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 5,
+          "nombre": "Dra. Mariana Moreno",
+          "especialidad": "Atención a la mujer",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 6,
+          "nombre": "Dra. Priscila Perez",
+          "especialidad": "Atención a la mujer",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 7,
+          "nombre": "Dr. Leonardo Silva",
+          "especialidad": "Otorrinolaringologia",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 8,
+          "nombre": "Dr. Joaquin Rojas",
+          "especialidad": "Gastroenterologia",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 9,
+          "nombre": "Dr. Benjamin Pina",
+          "especialidad": "Pediatria",
+          "os": false,
+          "available": true
+        },
+        {
+          "id": 10,
+          "nombre": "Dr. Francisco Berra",
+          "especialidad": "Cardiologia",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 11,
+          "nombre": "Dr. Luis Aranda",
+          "especialidad": "Cardiologia",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 12,
+          "nombre": "Dr. Eduardo Camargo",
+          "especialidad": "Cardiologia",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 13,
+          "nombre": "Dra. Mariana García",
+          "especialidad": "Pediatria",
+          "os": false,
+          "available": true
+        },
+        {
+          "id": 14,
+          "nombre": "Dra. Laura Moreira",
+          "especialidad": "Pediatria",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 15,
+          "nombre": "Dr. Rodrigo Loredo",
+          "especialidad": "Cirugía Plastica y Recontrustiva",
+          "os": true,
+          "available": true
+        },
+        {
+          "id": 16,
+          "nombre": "Dra. Eugenia Perez Lloveras",
+          "especialidad": "Clínica Médica",
+          "os": false,
+          "available": true
+        },
+        {
+          "id": 17,
+          "nombre": "Dr. Fernando Pugliese",
+          "especialidad": "Nefrologia",
+          "os": false,
+          "available": false
+        },
+        {
+          "id": 18,
+          "nombre": "Dr. Enzo Coppeti",
+          "especialidad": "Nefrologia",
+          "os": false,
+          "available": false
+        },
+        {
+            "id": 19,
+            "nombre": "Dr. Carlos Olivera",
+            "especialidad": "Endocrinologia",
+            "os": true,
+            "available": false
+        },
+        {   "id": 20,
+            "nombre" : "Dr. Lucila Benassi",
+            "especialidad" : "Oftalmologia",
+            "os":false,
+            "available" : false
+        },
+        {   "id": 21,
+            "nombre" : "Dr. Federico Cossio",
+            "especialidad" : "Alergia e Inmunología",
+            "os":false,
+            "available" : false
+        }
+      ],
+    "appointments": []
+}
