@@ -30,20 +30,6 @@ Abre index.html en tu navegador.
 ### Ver Historial de Citas
 El historial de citas se muestra en la sección "Historial de Citas" después de reservar una cita.
 
-## Funciones Principales
-
-### `populateSpecialtySelect(doctors)`
-Llena el elemento <select> de especialidades con las especialidades disponibles ordenadas alfabéticamente.
-
-### `setupSearchForm(doctors)`
-Configura el formulario de búsqueda de doctores y añade el evento `submit` para manejar la búsqueda.
-
-### `setupAppointmentForm(doctors)`
-Configura el formulario de selección de citas y añade el evento `change` para manejar la selección de doctores.
-
-### `handleAppointmentSubmit(event)`
-Maneja el evento `submit` del formulario de citas, reservando la cita si la fecha seleccionada es válida.
-
 ## Contribución
 
 1. Haz un fork del proyecto.
